@@ -1,5 +1,7 @@
 package AGROUP;
 
+import java.util.Scanner;
+
 public class User {
     //instance variables
     private static int numberOfRooms = 0;
@@ -23,7 +25,7 @@ public class User {
         numOfDisabledAccess = inputnoOfDisabledAccess;
         numberOfSeats = inputnoOfSeats;
         numberOfRooms++;
-    }//Alternative Constructor yo
+    }//Alternative Constructor
 
     public static int getNumberOfRooms() {
         return numberOfRooms;
