@@ -23,7 +23,7 @@ public class User {
         numOfDisabledAccess = inputnoOfDisabledAccess;
         numberOfSeats = inputnoOfSeats;
         numberOfRooms++;
-    }//Alternative Constructor
+    }//Alternative Constructor yo
 
     public static int getNumberOfRooms() {
         return numberOfRooms;
